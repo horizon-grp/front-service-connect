@@ -1,0 +1,173 @@
+.search{
+    margin: 20px 20px 20px 500px;
+    text-align: center;
+    display: flex;
+}
+
+.search input[type="search"]{
+    width: 350px;
+    height: 40px;
+    padding: 1px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.search .sort{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 400px;
+}
+
+.sort p{
+    color: rgb(58, 138, 188);
+    margin: 10px 5px;
+    font-size: 15px;
+}
+
+.sort select{
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}
+
+.searchLine{
+    background-color: rgb(61, 161, 237);
+    width: 85%;
+    height: 2px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.serviceSum{
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-self: center;
+    margin-left: 300px;
+}
+
+.serviceSum .header{
+    background-image: linear-gradient(rgb(52, 140, 217), white) ;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.serviceSum .header h2{
+    font-size: 35px;
+    margin: 50px 10px 10px 10px;
+    color: rgb(4, 14, 104);
+}
+
+.line{
+    background-color: rgb(4, 14, 104);
+    width: 80px;
+    height: 3px;
+    transform: translate(100px, -10px);
+}
+
+.serviceSum .header p{
+    font-size: 15px;
+    margin: 20px;
+    gap: 10px;
+}
+
+.header span{
+    margin: 10px;
+}
+
+.serviceSum img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    transform: translate(120px, -200px);
+    border-radius: 5px;
+    border: transparent;
+}
+
+.servicesCrds{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    font-size: 13px;
+}
+
+.servicesCrds .crd{
+    margin: 50px 10px 10px 10px;
+    border-radius: 5px;
+    /* width: 420px; */
+    border: 1px solid grey;
+}
+
+.crd span{
+    color: rgb(55, 53, 53);
+}
+
+.servicesCrds .crd:hover{
+    background-image: linear-gradient(rgb(58, 138, 188), white);
+    border: transparent;
+}
+
+.servicesCrds .crdHead{
+    display: grid;
+    margin: 10px;
+}
+
+.servicesCrds .crdHead .text{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 10px;
+}
+
+.servicesCrds .crdHead .text h2{
+    font-size: 20px;
+    color: rgb(58, 138, 188);
+    margin: 5px;
+}
+
+.crdHead img{
+    object-fit: cover;
+    width: 130px;
+    height: 100px;
+    border-radius: 20%;
+    margin: -80px 10px 10px 20px;
+}
+
+.text p{
+    margin: 5px;
+    color: rgb(58, 138, 188);
+}
+
+.lineCrd{
+    background-color: rgb(58, 138, 188);
+    width: 90%;
+    height: 1.5px;
+    text-align: center;
+}
+.crdMain{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+}
+
+.crdMain p{
+    width: 350px;
+    text-align: center;
+    transform: translateX(60px);
+    margin: 10px;
+}
+
+.crdMain .salary{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(58, 138, 188);
+    transform: translateX(10px);
+}
+

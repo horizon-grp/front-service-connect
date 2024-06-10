@@ -1,0 +1,92 @@
+.allElt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.elt1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    flex-direction: row; */
+    margin: 50px 20px;
+}
+
+.elt1 img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    transform: translate(100px, -50px);
+}
+
+.elt1 .prting{
+    display: block;
+    margin-right: 150px;
+    height: 250px;
+}
+
+.prting .text{
+    color: rgb(67, 67, 67);
+    text-align: right;
+    display: flex;
+}
+
+.text h1{
+    text-align: right;
+    color: rgb(38, 38, 237);
+    font-size: 40px;
+}
+
+.text .lines{
+    align-items: end;
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.text .line2{
+    background-color: rgb(31, 31, 235);
+    width: 250px;
+    height: 3px;
+    border-radius: 2px;
+
+}
+
+.prting p{
+    margin: 10px;
+    text-align: right;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 30px 0;
+}
+form input{
+    width: 550px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(5, 5, 155);
+    box-shadow: 0 0 0 2px rgb(130, 129, 129);
+}
+
+.form input::placeholder{
+    color: rgba(150, 189, 199);
+}
+
+.accnt{
+    text-align: center;
+    color: rgb(85, 83, 83);
+    font-size: 15px;
+}
+
+.accnt a{
+    color: blue;
+    text-decoration: none;
+}
+
+.accnt a:hover{
+    color: red;
+}

@@ -1,0 +1,13 @@
+.otherAccnt .or{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.or .divLine1 , .divLine2{
+    width: 250px;
+    background-color: grey;
+    height: 2px;
+    margin: 10px;
+}

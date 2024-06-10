@@ -1,0 +1,64 @@
+.imgPrt{
+    background-image: url("./Images/welcome.jpg");
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    top: -15%;
+    left: 10%;
+}
+
+.imgPrt h1{
+    transform: translateY(600px);
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(122, 120, 120);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.imgPrt p{
+    position: relative;
+    text-align: center;
+    transform: translateY(600px);
+    color: rgb(81, 80, 80);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.imgPrt p span{
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btns{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.btns button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background-image: linear-gradient(rgba(121, 32, 236, 0.916), rgb(118, 115, 115));
+    color: white;
+}
+
+button:nth-child(2){
+    transform: translateX(-400px);
+}
+
+button a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-image: linear-gradient( rgb(118, 115, 115), rgba(121, 32, 236, 0.916));
+}
